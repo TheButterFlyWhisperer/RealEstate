@@ -71,6 +71,15 @@ header img {
     justify-content: flex-end;
     text-align: left;
     border-bottom: 1px solid rgb(239, 238, 238);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(71, 75, 81);
+   
+}
+
+.Options-container li:hover {
+   color: #fff;
 }
 
 .Options-container h1 {
